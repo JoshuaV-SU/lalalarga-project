@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243942314238",
+    "project_id": "lalalarga-6569a",
+    "storage_bucket": "lalalarga-6569a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243942314238:android:5f120d01be72b51d5195af",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ2ZzTw6aNJfmTa8UGfF6P16MBzz8A3N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

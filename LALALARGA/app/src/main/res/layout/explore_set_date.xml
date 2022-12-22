@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#f9f7dc">
+
+    <Button
+        android:id="@+id/btnPlane"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="11dp"
+        android:backgroundTint="#c43c1e"
+        android:ems="10"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:onClick="planeClick"
+        android:text="Plane"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnCruise"
+        app:layout_constraintEnd_toStartOf="@+id/btnCruise"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="92dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#c43c1e"
+        android:ems="10"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:onClick="btnSearch"
+        android:text="SEARCH"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tripID4" />
+
+    <EditText
+        android:id="@+id/tripdestTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/deptTitle4"
+        app:layout_constraintTop_toBottomOf="@+id/deptTitle4" />
+
+    <EditText
+        android:id="@+id/tripID4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deptTitle3" />
+
+    <TextView
+        android:id="@+id/deptTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:text="Passenger Count"
+        android:textColor="#c43c1e"
+        android:textSize="15sp"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deptDateSetTxtView" />
+
+    <Button
+        android:id="@+id/returnDateTxtView"
+        style="?android:spinnerStyle"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="38dp"
+        android:backgroundTint="#c43c1e"
+        android:ems="10"
+        android:hint="Set Date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:onClick="openarvDatePicker"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="36dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="153dp"
+        android:rotationY="-180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/returnDateTxtView"
+        app:layout_constraintStart_toStartOf="@+id/deptDateSetTxtView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/returnTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="12dp"
+        android:text="Return"
+        android:textColor="#c43c1e"
+        android:textSize="15sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/returnDateTxtView"
+        app:layout_constraintStart_toStartOf="@+id/returnDateTxtView" />
+
+    <TextView
+        android:id="@+id/deptTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="12dp"
+        android:text="Departure"
+        android:textColor="#c43c1e"
+        android:textSize="15sp"
+        android:translationZ="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/deptDateSetTxtView"
+        app:layout_constraintStart_toStartOf="@+id/tripdestTxtView" />
+
+    <Button
+        android:id="@+id/deptDateSetTxtView"
+        style="?android:spinnerStyle"
+        android:layout_width="135dp"
+        android:layout_height="48dp"
+        android:color="@color/black"
+        android:ems="10"
+        android:hint="Set date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:onClick="setDeptDate"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/deptTitle2"
+        app:layout_constraintStart_toEndOf="@+id/deptTitle2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/deptTitle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="9dp"
+        android:text="Destination"
+        android:textColor="#c43c1e"
+        android:textSize="15sp"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="@+id/originTxtView"
+        app:layout_constraintTop_toBottomOf="@+id/originTxtView" />
+
+    <TextView
+        android:id="@+id/deptTitle5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="116dp"
+        android:text="Origin"
+        android:textColor="#c43c1e"
+        android:textSize="15sp"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCruise"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#c43c1e"
+        android:ems="10"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:onClick="cruiseClick"
+        android:text="Cruise"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/deptTitle5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPlane"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/originTxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="@+id/deptTitle5"
+        app:layout_constraintTop_toTopOf="@+id/deptTitle5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

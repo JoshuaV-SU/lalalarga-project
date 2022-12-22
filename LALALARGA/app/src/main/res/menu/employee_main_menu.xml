@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/manage"
+        android:icon="@drawable/boat"
+        android:title="Manage"/>
+    <item
+        android:id="@+id/bank"
+        android:icon="@drawable/hotel"
+        android:title="Bank"/>
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/trips"
+        android:title="Account"/>
+
+</menu>

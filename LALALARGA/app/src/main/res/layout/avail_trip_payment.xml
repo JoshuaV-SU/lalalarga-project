@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brec" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="421dp"
+        android:layout_height="7dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="26dp"
+        android:background="#c43c1e"
+        app:layout_constraintBottom_toBottomOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tripCostTxtView2" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginBottom="160dp"
+        android:text="List of banks"
+        android:textStyle="bold"
+        android:textColor="#c43c1e"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView24"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/textView21" />
+
+    <EditText
+        android:id="@+id/ETtransID"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="83dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ETbankName"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toTopOf="@+id/textView23"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="186dp"
+        android:text="Payment Details"
+        android:textStyle="bold"
+        android:textColor="#c43c1e"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="10dp"
+        android:text="Bank Name"
+        android:textColor="#c43c1e"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <ListView
+        android:id="@+id/bankkkList"
+        android:layout_width="0dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <EditText
+        android:id="@+id/ETbankName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="6dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ETtransID"
+        app:layout_constraintEnd_toEndOf="@+id/tripCostTxtView2"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="7dp"
+        android:text="Transaction ID"
+        android:textColor="#c43c1e"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ETtransID"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bookTripBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="setBdayDate"
+        android:text="Book Trip"
+        android:backgroundTint="#c43c1e"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="-235dp"
+        android:layout_marginBottom="3dp"
+        android:text="Passenger Information"
+        android:textColor="#c43c1e"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/listPsgrs"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/TVcustUser" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="3dp"
+        android:text="Cost:"
+        android:textColor="#c43c1e"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listPsgrs" />
+
+    <TextView
+        android:id="@+id/tripCostTxtView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="27dp"
+        android:text="P1000"
+        android:textColor="#c43c1e"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listPsgrs" />
+
+    <ListView
+        android:id="@+id/listPsgrs"
+        android:layout_width="379dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TVcustName" />
+
+    <TextView
+        android:id="@+id/TVdestDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="22dp"
+        android:text="11/20/2021"
+        android:textColor="#f9f7dc"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/TVcustName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:text="Thama Kim"
+        android:textColor="#f9f7dc"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/TVcustUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thama_kim89"
+        android:textColor="#f9f7dc"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/TVcustName"
+        app:layout_constraintTop_toBottomOf="@+id/TVcustName" />
+
+    <TextView
+        android:id="@+id/TVdeptTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="16 30"
+        android:textColor="#f9f7dc"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="@+id/TVdeptDate" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="225dp"
+        android:text="Trip Details"
+        android:textColor="#f9f7dc"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVCompName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="14dp"
+        android:text="Cebu Pac"
+        android:textColor="#f9f7dc"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/TVdept"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:rotationY="-180"
+        app:layout_constraintBottom_toTopOf="@+id/TVdeptDate"
+        app:layout_constraintStart_toEndOf="@+id/TVdeptDate"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/TVdest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="3dp"
+        android:text="Dumaguete"
+        android:textColor="#f9f7dc"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/TVdestDate"
+        app:layout_constraintEnd_toEndOf="@+id/TVdestDate" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="142dp"
+        android:text="Contact Information"
+        android:textColor="#f9f7dc"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TVdestTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="18dp"
+        android:text="17 30"
+        android:textColor="#f9f7dc"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/TVdestDate"
+        app:layout_constraintTop_toBottomOf="@+id/TVdestDate" />
+
+    <TextView
+        android:id="@+id/TVdept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="4dp"
+        android:text="Manila"
+        android:textColor="#f9f7dc"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/TVdeptDate"
+        app:layout_constraintEnd_toEndOf="@+id/TVdeptDate" />
+
+    <TextView
+        android:id="@+id/TVdeptDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="6dp"
+        android:text="11/25/2021"
+        android:textColor="#f9f7dc"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/TVdeptTime"
+        app:layout_constraintStart_toStartOf="@+id/textView20" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="24dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="677dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/TVcustMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="thomas@gmail.com"
+        android:textColor="#f9f7dc"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toStartOf="@+id/TVdestTime"
+        app:layout_constraintStart_toStartOf="@+id/TVdestTime"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

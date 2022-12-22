@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CustAccount"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F7DC">
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="74dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="338dp"
+        android:translationZ="90dp"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/btnSave"
+        android:layout_width="74dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="325dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="414dp"
+        android:layout_marginEnd="12dp"
+        android:translationZ="90dp"
+        app:srcCompat="@drawable/save" />
+
+    <TextView
+        android:id="@+id/StringUserName"
+        android:layout_width="341dp"
+        android:layout_height="142dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="470dp"
+        android:text="Hello,
+        CustName"
+        android:textColor="#F9F7DC"
+        android:textSize="45sp"
+        android:translationZ="90dp" />
+
+
+    <TextView
+        android:id="@+id/bigLabel"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="403dp"
+        android:background="#C43C1E"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Personal Information"
+        android:textColor="#F9F7DC"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:translationZ="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="275dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="384dp"
+        android:src="@drawable/background"
+        android:translationY="58dp" />
+
+    <TextView
+        android:id="@+id/TVbday"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="-32dp"
+        android:layout_marginBottom="232dp"
+        android:text="Name here"
+        android:textColor="#C43C1E"
+        android:textSize="25sp"
+        android:translationZ="90dp" />
+
+    <TextView
+        android:id="@+id/TVname"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="-33dp"
+        android:layout_marginBottom="313dp"
+        android:text="Name here"
+        android:textColor="#C43C1E"
+        android:textSize="25sp"
+        android:translationZ="90dp" />
+
+    <TextView
+        android:id="@+id/labelName2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="-31dp"
+        android:layout_marginBottom="270dp"
+        android:text="Birthday"
+        android:textColor="#C43C1E"
+        android:textSize="20sp"
+        android:translationZ="90dp" />
+
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="-31dp"
+        android:layout_marginBottom="342dp"
+        android:text="Name"
+        android:textColor="#C43C1E"
+        android:textSize="20sp"
+        android:translationZ="90dp" />
+
+    <TextView
+        android:id="@+id/bigLabel2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="195dp"
+        android:background="#C43C1E"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Contact Information"
+        android:textColor="#F9F7DC"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TVuser"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="-34dp"
+        android:layout_marginBottom="20dp"
+        android:text="Name here"
+        android:textColor="#C43C1E"
+        android:textSize="25sp"
+        android:translationZ="90dp" />
+
+    <TextView
+        android:id="@+id/labelName4"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="-32dp"
+        android:layout_marginBottom="131dp"
+        android:text="Email"
+        android:textColor="#C43C1E"
+        android:textSize="20sp"
+        android:translationZ="90dp" />
+
+    <EditText
+        android:id="@+id/ETemail"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="113dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#C43C1E"
+        tools:text="Email" />
+
+    <TextView
+        android:id="@+id/labelName3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="-32dp"
+        android:layout_marginBottom="59dp"
+        android:text="Username"
+        android:textColor="#C43C1E"
+        android:textSize="20sp"
+        android:translationZ="90dp" />
+
+</RelativeLayout>

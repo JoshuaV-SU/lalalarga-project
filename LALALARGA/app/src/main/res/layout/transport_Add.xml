@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_add_transComp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".transport_Add">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="239dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/def2"/>
+
+        <TextView
+            android:id="@+id/txt_transname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Transport Company Name"
+            android:textColor="#C43C1E"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_compName"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:hint="Enter Transport Company Name"
+            android:minHeight="48dp"
+            android:textColor="#C43C1E"
+            android:textColorHint="#80C43C1E"
+            android:textColorLink="#C43C1E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_transtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Transport Vehicle Type"
+            android:textColor="#C43C1E"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_TransType"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:hint="Enter Type of Transport Vehicle"
+            android:minHeight="48dp"
+            android:singleLine="false"
+            android:textColor="#C43C1E"
+            android:textColorHint="#80C43C1E"
+            android:textColorLink="#C43C1E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_transid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Transport Company ID"
+            android:textColor="#C43C1E"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_TransCompID"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:hint="Ex: COMP000001"
+            android:minHeight="48dp"
+            android:singleLine="false"
+            android:textColor="#C43C1E"
+            android:textColorHint="#80C43C1E"
+            android:textColorLink="#C43C1E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_compNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+
+            android:text="Company Number"
+            android:textColor="#C43C1E"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_CompNum"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+
+            android:hint="Ex: 000100"
+            android:minHeight="48dp"
+            android:singleLine="false"
+            android:textColor="#C43C1E"
+            android:textColorHint="#80C43C1E"
+            android:textColorLink="#C43C1E"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+
+            android:text="Add Transport Company"
+            app:backgroundTint="#C43C1E" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+
+            android:text="Next Page"
+            android:visibility="invisible"
+            app:backgroundTint="#C43C1E" />
+
+        <Button
+            android:id="@+id/btn_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+
+            android:text="Back"
+            android:visibility="invisible"
+            app:backgroundTint="#C43C1E" />
+
+    </LinearLayout>
+
+
+</ScrollView>

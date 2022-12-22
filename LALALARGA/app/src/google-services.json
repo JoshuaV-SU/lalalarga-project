@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "243942314238",
+    "project_id": "lalalarga-6569a",
+    "storage_bucket": "lalalarga-6569a.appspot.com",
+    "firebase_url":
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243942314238:android:5f120d01be72b51d5195af",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5S6keFLxwsYNxhvPZ0543nR-I9zgPvEc\n"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243942314238:android:eacb92146b777cf85195af",
+        "android_client_info": {
+          "package_name": "com.example.Lalalarga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5S6keFLxwsYNxhvPZ0543nR-I9zgPvEc\n"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243942314238:android:187a2ff8a9999b765195af",
+        "android_client_info": {
+          "package_name": "com.example.code"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5S6keFLxwsYNxhvPZ0543nR-I9zgPvEc\n"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243942314238:android:e467f54a303d2efb5195af",
+        "android_client_info": {
+          "package_name": "com.example.lalalarga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243942314238-7phjuuj8luj5jsb8eqdpjgsj54den52q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lalalarga",
+            "certificate_hash": "d66020662a4f6f4addf1a0badfdd0fb317aba85e"
+          }
+        },
+        {
+          "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5S6keFLxwsYNxhvPZ0543nR-I9zgPvEc\n"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243942314238-0668p4edj082lrhnniggdp7meghfoses.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

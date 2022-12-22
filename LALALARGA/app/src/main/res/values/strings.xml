@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Code</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="trip_type">
+        <item>Plane</item>;
+        <item>Cruise</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>;
+        <item>Female</item>;
+    </string-array>
+</resources>

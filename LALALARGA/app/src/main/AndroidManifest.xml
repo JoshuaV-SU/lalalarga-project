@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.code">
+
+    <uses-sdk android:minSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Code">
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".Account"
+            android:exported="true" />
+        <activity
+            android:name=".LogIn"
+            android:exported="true" />
+        <activity
+            android:name=".Customer"
+            android:exported="true" />
+        <activity
+            android:name=".Employee"
+            android:exported="true" />
+        <activity
+            android:name=".Trip"
+            android:exported="true" />
+        <activity
+            android:name=".TripList"
+            android:exported="true" />
+        <activity
+            android:name=".Explore"
+            android:exported="true" />
+        <activity
+            android:name=".AvailTripsOneWay"
+            android:exported="true" />
+        <activity
+            android:name=".AvailTripDetails"
+            android:exported="true" />
+        <activity
+            android:name=".PassengerDetails"
+            android:exported="true" />
+        <activity
+            android:name=".TripPaymentDetails"
+            android:exported="true" />
+        <activity
+            android:name=".TripReservationDetails"
+            android:exported="true"/>
+        <activity
+            android:name=".ExploreChoose"
+            android:exported="true"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddBankDetails"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayBankDetails"
+            android:exported="true"
+            />
+        <activity
+            android:name=".EditBankDetails"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.RUN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeleteBankDetails"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.RUN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Add_TCompany"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.RUN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BankMaintenance"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.RUN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PageFirst"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClickedItem" />
+        <activity android:name=".BookDetails" />
+        <activity android:name=".MainActivityAccom" />
+        <activity android:name=".PaymentDetails" />
+        <activity android:name=".FinishedPayment" />
+        <activity
+            android:name=".DisplayCompanies"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MainActivityHotel"
+            android:exported="true" >
+        </activity>
+    </application>
+
+</manifest>

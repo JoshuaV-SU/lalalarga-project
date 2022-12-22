@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="16dp"
+    android:backgroundTint="#c43c1e">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/triptitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trip ID: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TripIdTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name "
+                android:textColor="#f9f7dc"
+                android:layout_marginLeft="8dp"
+                android:textSize="26sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/trantitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transportation type: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/vehTypeTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="plane "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/originTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Origin: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/originTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="plane "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/destTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Destination: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tripdestTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="plane "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/depttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departure Date: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/DeptDateTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08/07/2021"
+                android:textColor="#f9f7dc"
+                android:layout_marginLeft="8dp"
+                android:textSize="26sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Departure Time: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/DeptTimeTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16:45"
+                android:textColor="#f9f7dc"
+                android:layout_marginLeft="8dp"
+                android:textSize="26sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arrival Date: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/ArvDateTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08/07/2021 "
+                android:textColor="#f9f7dc"
+                android:layout_marginLeft="8dp"
+                android:textSize="26sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arrival Time: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/ArvTimeTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19:56 "
+                android:textColor="#f9f7dc"
+                android:layout_marginLeft="8dp"
+                android:textSize="26sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle ID: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/VehIDTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PR03490 "
+                android:textColor="#f9f7dc"
+                android:layout_marginLeft="8dp"
+                android:textSize="26sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ticket Price: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/TktPriceTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P1500.00 "
+                android:textColor="#f9f7dc"
+                android:layout_marginLeft="8dp"
+                android:textSize="26sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seats Available: "
+                android:textColor="#f9f7dc"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/SeatsAvailableTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="153 "
+                android:textColor="#f9f7dc"
+                android:layout_marginLeft="8dp"
+                android:textSize="26sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
